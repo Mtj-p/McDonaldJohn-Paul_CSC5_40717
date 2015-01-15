@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
     h=3;
     cout<<"g = "<<g<<" h = "<<h<<endl;
     g=g^h;
-    cout<<"itermediate value of g is "<<g<<endl; //checking the intermediate g value
+    cout<<"intermediate value of g is "<<g<<endl; //checking the intermediate g value
     h=g^h;
     cout<<"h becomes "<<h<<endl; //checking the intermediate h value
     g=g^h;
