@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
         cout<<"Would you like to approximate again? (Y/N) ";
         cin>>pieend;
     }         
-    cout<<"Have a nice day."
+    cout<<"Have a nice day.";
     return 0;
 }
 

@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin_4.x_1-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x_1-Windows
+CND_PLATFORM_Debug=Cygwin_4.x-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
 CND_ARTIFACT_NAME_Debug=chapter3menu
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x_1-Windows/chapter3menu
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x_1-Windows/package
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/chapter3menu
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
 CND_PACKAGE_NAME_Debug=chapter3menu.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x_1-Windows/package/chapter3menu.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/chapter3menu.tar
 # Release configuration
-CND_PLATFORM_Release=Cygwin_4.x_1-Windows
-CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x_1-Windows
+CND_PLATFORM_Release=Cygwin_4.x-Windows
+CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
 CND_ARTIFACT_NAME_Release=chapter3menu
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x_1-Windows/chapter3menu
-CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x_1-Windows/package
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/chapter3menu
+CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
 CND_PACKAGE_NAME_Release=chapter3menu.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x_1-Windows/package/chapter3menu.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/chapter3menu.tar
 #
 # include compiler specific variables
 #
