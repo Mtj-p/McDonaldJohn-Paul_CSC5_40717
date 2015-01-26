@@ -22,7 +22,20 @@ const float PI=3.1415;//pi to 4 digits
 int main(int argc, char** argv) {
     int menufunc;
     cout<<"Welcome the the Chapter 3 Homework menu. Problems 1-9 can be found\n"
-            "by inputting the a numerical value between 1-9. To view a directory,"
+            "by inputting the a numerical value between 1-9.\n";
+    cout<<"Menu Directory: "<<endl;
+                cout<<"1 -- Savitch_9thEd_Chap3_Prob1"<<endl;
+                cout<<"2 -- Savitch_9thEd_Chap3_Prob2"<<endl;
+                cout<<"3 -- Savitch_9thEd_Chap3_Prob5"<<endl;
+                cout<<"4 -- Savitch_9thEd_Chap3_Prob6"<<endl;
+                cout<<"5 -- Savitch_9thEd_Chap3_Prob7"<<endl;
+                cout<<"6 -- Savitch_9thEd_Chap3_Prog2"<<endl;
+                cout<<"7 -- Savitch_9thEd_Chap3_Prog3"<<endl;
+                cout<<"8 -- Savitch_9thEd_Chap3_Prog8"<<endl;
+                cout<<"9 -- Savitch_9thEd_Chap3_Prog12"<<endl;
+                cout<<"10 -- Welcome Sign"<<endl;
+                cout<<"11 -- Exit Program"<<endl;
+    cout<<"To view a directory,"
             "input a 0."<<endl;
     cin>>menufunc;
     while(menufunc<11){
