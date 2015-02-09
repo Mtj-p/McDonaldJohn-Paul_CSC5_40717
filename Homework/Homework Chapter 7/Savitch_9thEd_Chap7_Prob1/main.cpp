@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     int count=1;
     int count2=0;
     int arySize=0;
-    int usrAray[100];
+    int usrAray[10000];
     cout<<"I can find if your 2 is at the beginning or end.\n";
     cout<<"I will soon have you input an array of integers, and then\n"
             "find if the 2 is at the beginning or the end.\n"
