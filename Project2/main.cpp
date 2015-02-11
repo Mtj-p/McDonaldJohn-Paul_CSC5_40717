@@ -33,7 +33,6 @@ int main(){
     string line;
     int count1=0;
     int count2=0;
-    cout<<count2;
     ifstream myfile;
     myfile.open("highscore.txt");
     while (getline(myfile,line)){
@@ -48,13 +47,18 @@ int main(){
         arraycomp[i][1]<<prevhigharray[i];
     }
     cout << "Welcome to bulls and cows! A text based game similar "
-            "to mastermind.\nThe goal is to write input various "
+            "to mastermind.\nThe goal is to input various "
             "combinations of 4 digits until you get\nfour bulls. "
+            "You get a bull whenever you have the right number\nin the"
+            " right place."
             "You get a cow whenever you have the right number but "
-            "the wrong\norder. The game won't end until you guess"
+            "the wrong\nplace. The game won't end until you guess"
             " the right number, or if you\ntake more than 9 guesses.\n"
+            "\n \n"
             "*HINT* The numbers will not be repeated; each "
-            "number is unique.\nDo you want to play? (Y/N) ";
+            "number is unique.\n"
+            "\n \n"
+            "Do you want to play? (Y/N) ";
     string answer;
     getline(cin,answer);
     if (answer=="n"||answer=="N"){
@@ -212,13 +216,4 @@ void adddefhs (){
     myfile << "9";
     myfile << "\n";
     myfile.close();
-    cout<<"testing";
 }
-
-/*
- * Goals: Add a function that will combine the two arrays together
- * Take the array from that new function, and return it to main
- * create a function that will compare the new array created with "higharray"
- * If new array != higharray; output a thing about congratz on the new highscores
- * should add another 100 lines of codes *fingers crossed*
- */
