@@ -90,12 +90,18 @@ int main(){
     cout<<"Third Highest Score:         "<<highscore[2]<<endl;
     cout<<"Fourth Highest Score:        "<<highscore[3]<<endl;
     cout<<"Fifth Highest Score:         "<<highscore[4]<<endl;
+    int swvtcharray=0;
     if(arraycomp[0][2]>arraycomp[0][1]||
             arraycomp[1][2]>arraycomp[1][1]||
             arraycomp[2][2]>arraycomp[2][1]||
             arraycomp[3][2]>arraycomp[3][1]||
             arraycomp[4][2]>arraycomp[4][1]){
-        cout<<"Congrats on the new high score!"<<endl;
+        swvtcharray=1;
+    }
+    switch(swvtcharray){
+        case 1:cout<<"Congratulations on your new high score!"
+                <<endl;break;
+         default: break;
     }
     cout<<"Would you like to clear the high score "
             "list before you go? (Y/N)"<<endl;
