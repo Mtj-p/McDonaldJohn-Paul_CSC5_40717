@@ -15,12 +15,14 @@
 #include <cstdlib>
 #include <fstream>
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
 //User Libraries
 
 //Global Constants
+const char COL=2;
 
 //Function Prototypes
 void cowsandcleots();
@@ -29,6 +31,7 @@ void loghighscore(int &);
 void marksort(int [],int n);
 void clearhs ();
 void adddefhs ();
+void tdarray(int [][COL], int x=2);
 
 //Start of Execution
 int main(){
@@ -80,7 +83,7 @@ int main(){
     getline(cin,answer);
     //if they don't want to
     if (answer=="n"||answer=="N"){
-        cout << "Ok. Goodbye.\n";
+        cout<<setw(15)<<"Ok. Goodbye.\n";
         return EXIT_SUCCESS;
     }
     //if they don't not want to
@@ -150,6 +153,7 @@ int main(){
             adddefhs();
             adddefhs();
         }
+        tdarray(arraycomp);
     }
 }
 
@@ -277,4 +281,11 @@ void adddefhs (){
     myfile << "\n";
     //Close File
     myfile.close();
+}
+
+
+void tdarray(int a[][COL], int x){
+    if(a[0][2]>=9){
+        cout<<endl<<"Passing default parameters and 2d arrays is fun!"<<endl;     
+    }
 }
